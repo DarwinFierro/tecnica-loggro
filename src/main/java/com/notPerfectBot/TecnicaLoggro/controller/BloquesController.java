@@ -12,7 +12,7 @@ public class BloquesController {
     @Autowired
     private BloquesService service;
 
-    @PostMapping("/")
+    @PostMapping
     public boolean puedoObtenerPalabra(@RequestBody Palabra request) {
         return service.puedoObtenerPalabra(request.getPalabra());
     }
