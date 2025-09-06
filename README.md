@@ -11,7 +11,7 @@ Este proyecto resuelve el reto técnico de verificar si una palabra puede formar
 
 ## Ejecución
 
-### 1. Clonar el repositorio o descargar el ZIP
+### 1. Clonar el repositorio
 ```bash
 git clone https://github.com/TU_USUARIO/tecnica-loggro.git
 cd tecnica-loggro
