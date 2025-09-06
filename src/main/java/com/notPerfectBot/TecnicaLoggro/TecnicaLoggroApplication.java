@@ -20,7 +20,7 @@ public class TecnicaLoggroApplication {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOriginPatterns("http://localhost:[0-9]*")
+                        .allowedOriginPatterns("http://localhost:*")
                         .allowedMethods("POST")
                         .allowedHeaders("*");
             }
