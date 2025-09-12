@@ -29,7 +29,7 @@ class TecnicaLoggroApplicationTests {
             "ARLEQUIN, true"
     })
     void testEndpointPostConCasos(String palabra, boolean esperado) throws Exception {
-        mockMvc.perform(post("/api/bloques/")
+        mockMvc.perform(post("/api/bloques")
                         .contentType("application/json")
                         .content("{\"palabra\":\"" + palabra + "\"}"))
                 .andExpect(status().isOk())
